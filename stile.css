@@ -230,13 +230,23 @@ nav {
   line-height: 29px;
   width: 55%;
 }
-#fourth-sector{
+#fourth-sector {
   width: 100%;
-  height: 50vh;
+  height: auto;
+  padding-bottom: 120px;
+  text-align: center;
 }
-#fourth-sector h1{
+#fourth-sector h1 {
   font-size: 48px;
-line-height: 57px;
+  line-height: 57px;
+  margin: 0 auto;
+  margin-bottom: 48px;
+  width: 80%;
+}
+#fourth-sector img {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
 }
 #fifth-sector {
   width: 100%;
@@ -291,4 +301,33 @@ line-height: 57px;
   font-size: 14px;
   line-height: 17px;
   text-align: center;
+}
+.card-body {
+  width: 80%;
+  margin: 0 auto;
+}
+.docs-card {
+  height: auto;
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-between;
+}
+#seventh-sector {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding-bottom: 120px;
+}
+#seventh-sector h1 {
+  width: 60%;
+  font-size: 48px;
+  line-height: 57px;
+  margin: 50px auto;
+}
+#seventh-sector button {
+  width: 265px;
+  height: 59px;
+  border: 1px solid #4a607a;
+  box-shadow: 0px 2px 18px rgba(41, 41, 41, 0.1);
+  border-radius: 6px;
 }

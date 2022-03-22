@@ -162,9 +162,9 @@
             </div>
         </div>
     </div>
-    <div id="fourth-sector">
+    <div id="fourth-sector" class="container">
         <h1 style="text-align: center;">У нас есть 2 пакета услуг</h1>
-
+        <img src="image/paket.png" style="text-align: center; margin: 0 auto;" alt="">
 
 
 
@@ -247,30 +247,88 @@
         <div class="sixth-main d-flex">
             <div class="sixth-m-left">
                 <div class="sixth-info">
-                    <img src="image/sixth-icons/phone.svg" alt="phone">
-                    <p>Позвоните нам</p>
+                    <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePhone"
+                        aria-expanded="false" aria-controls="collapsePhone">
+                        <img src="image/sixth-icons/phone.svg" alt="phone">
+                        <p>Позвоните нам</p>
+                    </button>
                 </div>
                 <div class="sixth-info">
-                    <img src="image/sixth-icons/docs.svg" alt="docs">
-                    <p>Заполните заявление</p>
+                    <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDocs"
+                        aria-expanded="false" aria-controls="collapseDocs">
+                        <img src="image/sixth-icons/docs.svg" alt="docs">
+                        <p>Заполните заявление</p>
+                    </button>
+
                 </div>
             </div>
             <div class="sixth-m-left">
                 <div class="sixth-info">
-                    <img src="image/sixth-icons/comment.svg" alt="comment">
-                    <p>Узнайте статус решения вопроса</p>
+                    <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseComment"
+                        aria-expanded="false" aria-controls="collapseComment">
+                        <img src="image/sixth-icons/comment.svg" alt="comment">
+                        <p>Узнайте статус решения вопроса</p>
+                    </button>
                 </div>
                 <div class="sixth-info">
-                    <img src="image/sixth-icons/portfolio.svg" alt="portfolio">
-                    <p>Полный архив всех условий</p>
+                    <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePortfolio"
+                        aria-expanded="false" aria-controls="collapsePortfolio">
+                        <img src="image/sixth-icons/portfolio.svg" alt="portfolio">
+                        <p>Полный архив всех условий</p>
+                    </button>
                 </div>
             </div>
         </div>
-
-
-
-
+        <div class="collapse width50%" id="collapsePhone">
+            <div class="card card-body">
+                тел.: +7 495 967 13 01
+            </div>
+        </div>
+        <div class="collapse width50%" id="collapseDocs">
+            <div class="card card-body docs-card">
+                <div class="card-body-left">
+                    <p>Заполните заявление и подготовьте необходимые документы. </p>
+                    <p>Направьте документы в Страховую компанию удобным для Вас способом:</p>
+                    <ul>
+                        <li>через <a href="" style="color: #DDD0A4;">Личный кабинет</a></li>
+                        <li>письмом по адресу: 125252, г. Москва, а/я 28</li>
+                    </ul>
+                </div>
+                <div class="card-body-right">
+                    <p>Список необходимых документов для заключения договора:</p>
+                    <ul>
+                        <li>паспорт</li>
+                        <li>заявление на страхование</li>
+                        <li>иные документы – по запросу компании</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="collapse width50%" id="collapseComment">
+            <div class="card card-body">
+                Email для связи с нами:
+                <a href="" style="font-weight: 600; color: #DDD0A4;"> info@prolife.ru</a>
+            </div>
+        </div>
+        <div class="collapse width50%" id="collapsePortfolio">
+            <div class="card card-body">
+                тел.: +7 495 967 13 01
+            </div>
+        </div>
     </div>
+
+    <div id="seventh-sector" class="container">
+        <h1>Посмотреть полную презентацию продукта</h1>
+        <button class="btn btn-outline-dark">Скачать PDF </button>
+    </div>
+    <div id="eighth-sector">
+        
+    </div>
+
+
+
+
+
 
     <script src="./main.js"></script>
 </body>
