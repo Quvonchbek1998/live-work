@@ -38,6 +38,9 @@
   .header-btn {
     margin-top: 40px;
   }
+  #third-sector{
+      width: 100%;
+  }
   .third-main {
     width: 90%;
     margin: 0 auto;
@@ -101,6 +104,11 @@
     margin: 0 10px;
     padding: 10px 5px;
     height: auto;
+  }
+  #seventh-sector h1{
+      width: 90%;
+      font-size: 36px;
+      line-height: 40px;
   }
 }
 @media only screen and (max-width: 776px) {

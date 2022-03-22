@@ -11,6 +11,9 @@
   font-family: "SF-Pro-Display-sb";
   src: url(fonts/SFPRODISPLAYMEDIUM.OTF);
 }
+a {
+  font-family: "SF-Pro-Display-reg";
+}
 .container {
   max-width: 1920px;
   width: 100%;
@@ -330,4 +333,118 @@ nav {
   border: 1px solid #4a607a;
   box-shadow: 0px 2px 18px rgba(41, 41, 41, 0.1);
   border-radius: 6px;
+}
+#eighth-sector {
+  width: 100%;
+  height: auto;
+  padding-bottom: 120px;
+}
+.eighth-titul {
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+}
+footer {
+  width: 100%;
+  height: auto;
+  padding-bottom: 50px;
+}
+.footer-main {
+  width: 80%;
+  height: auto;
+  align-items: flex-start;
+  margin: 0 auto;
+  padding-top: 84px;
+}
+.footer-left {
+  align-items: flex-start;
+  color: white;
+  width: auto;
+  justify-content: space-around;
+  text-align: left;
+}
+.footer-left li {
+  list-style: none;
+  margin-bottom: 24px;
+}
+.footer-left a {
+  color: white;
+  text-decoration: #4a607a;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+.footer-left a:hover {
+  text-decoration: #ddd0a4;
+  color: #ddd0a4;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: left;
+}
+.footer-right {
+  align-items: flex-start;
+  justify-content: space-around;
+  width: 50%;
+  text-align: left;
+  margin-left: 10px;
+}
+.footer-r-l {
+  width: 35%;
+  text-align: left;
+}
+.footer-r-l p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #9c9c9c;
+  margin-bottom: 40px;
+}
+.footer-r-l button {
+  width: 200px;
+  height: 45px;
+  background: #ffffff;
+  border: 1px solid #4a607a;
+  box-sizing: border-box;
+  box-shadow: 0px 2px 18px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.footer-r-r {
+  width: 50%;
+}
+.footer-r-r p {
+  font-size: 18px;
+  line-height: 21px;
+  color: #9c9c9c;
+}
+.footer-r-r h4 {
+  font-size: 24px;
+  line-height: 29px;
+  color: white;
+  margin: 42px 0;
+}
+.footer-r-r a {
+  text-decoration: #ffffff;
+}
+.fab {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: white;
+  color: #ddd0a4;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+}
+.footer-end {
+  font-size: 14px;
+  line-height: 17px;
+  color: #9c9c9c;
+  width: 80%;
+  margin: 39px auto;
+  margin-bottom: 0;
 }
