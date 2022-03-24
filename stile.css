@@ -348,6 +348,8 @@ footer {
   width: 100%;
   height: auto;
   padding-bottom: 50px;
+  max-width: 1920px;
+  margin: 0 auto;
 }
 .footer-main {
   width: 80%;
@@ -401,7 +403,7 @@ footer {
   margin-bottom: 40px;
 }
 .footer-r-l button {
-  width: 200px;
+  width: 45%;
   height: 45px;
   background: #ffffff;
   border: 1px solid #4a607a;

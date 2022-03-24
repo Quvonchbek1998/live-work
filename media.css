@@ -13,7 +13,7 @@
     margin: 0 auto;
     font-size: 36px;
     line-height: 40px;
-}
+  }
 }
 @media only screen and (max-width: 992px) {
   nav {
@@ -38,8 +38,8 @@
   .header-btn {
     margin-top: 40px;
   }
-  #third-sector{
-      width: 100%;
+  #third-sector {
+    width: 100%;
   }
   .third-main {
     width: 90%;
@@ -105,19 +105,39 @@
     padding: 10px 5px;
     height: auto;
   }
-  #seventh-sector h1{
-      width: 90%;
-      font-size: 36px;
-      line-height: 40px;
+  #seventh-sector h1 {
+    width: 90%;
+    font-size: 36px;
+    line-height: 40px;
+  }
+  .footer-main {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-left {
+    width: 100%;
+    margin: 20px auto;
+    justify-content: space-between;
+  }
+  .footer-right {
+    width: 100%;
+    margin: 20px auto;
+    justify-content: space-between;
+  }
+  .footer-r-l {
+    width: 45%;
+  }
+  .footer-r-r {
+    width: 45%;
   }
 }
 @media only screen and (max-width: 776px) {
   .sixth-main {
     width: 90% !important;
   }
-  .docs-card{
-      display: flex;
-      flex-direction: column !important;
+  .docs-card {
+    display: flex;
+    flex-direction: column !important;
   }
 }
 @media only screen and (max-width: 476px) {
