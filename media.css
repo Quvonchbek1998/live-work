@@ -157,4 +157,16 @@
     width: 90%;
     margin: 20px 10%;
   }
+  .footer-left{
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-right{
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-r-l{
+    margin-bottom: 20px;
+    width: 80%;
+  }
 }
